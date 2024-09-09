@@ -20,7 +20,7 @@ A simple and visually appealing battery monitoring application built with PyQt5.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/BatteryMonitorApp.git
+   git clone [https://github.com/gergosofalvi/OSXBatteryMonitorApp.git](https://github.com/gergosofalvi/OSXBatteryMonitorApp.git)
    ```
 
 2. Install the required dependencies:
@@ -32,6 +32,7 @@ A simple and visually appealing battery monitoring application built with PyQt5.
    ```bash
    python battery_monitor.py
    ```
+   Or Download release : [https://github.com/gergosofalvi/OSXBatteryMonitorApp/releases/](https://github.com/gergosofalvi/OSXBatteryMonitorApp/releases/)
 
 ## Packaging the Application
 
