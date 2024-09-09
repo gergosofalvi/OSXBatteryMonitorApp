@@ -1,3 +1,46 @@
-# OSXBatteryMonitorApp
-A simple PyQt5-based battery monitoring application that displays real-time wattage usage and allows theme switching between dark and light modes. The app also features a battery status bar with color-coded indicators.
 
+# BatteryMonitorApp
+
+A simple and visually appealing battery monitoring application built with PyQt5. It displays real-time battery wattage usage and includes features such as dark/light mode switching with emoji buttons and a dynamic progress bar for visualizing the current charge state.
+
+## Features
+
+- Displays real-time battery wattage usage.
+- Automatically starts in dark mode.
+- Switch between dark and light modes using an emoji button.
+- Color-coded progress bar:
+  - **Green**: Above 60W.
+  - **Yellow**: Between 20W and 60W.
+  - **Red**: Below 20W.
+- Minimalistic and easy-to-use interface.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/BatteryMonitorApp.git
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+   ```bash
+   python battery_monitor.py
+   ```
+
+## Packaging the Application
+
+To create a standalone executable, you can use PyInstaller:
+
+```bash
+pyinstaller --onefile --windowed --icon=battery_monitor.icns battery_monitor.py
+```
+
+This will generate a `.app` or `.exe` file in the `dist` folder.
+
+## License
+
+This project is licensed under the MIT License.
