@@ -1,6 +1,7 @@
 
 # BatteryMonitorApp
 
+![](https://github.com/gergosofalvi/OSXBatteryMonitorApp/battery_monitor.gif)
 A simple and visually appealing battery monitoring application built with PyQt5. It displays real-time battery wattage usage and includes features such as dark/light mode switching with emoji buttons and a dynamic progress bar for visualizing the current charge state.
 
 ## Features
